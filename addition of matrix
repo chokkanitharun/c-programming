@@ -15,10 +15,9 @@ int main()
     {  
         for (d = 0; d < n; d++)  
         {  
-            sum[c][d] = first[c][d] + second[c][d];  
-            printf("%d\t", sum[c][d]);  
+   sum[c][d] = first[c][d] + second[c][d];  
+   printf("%d\t", sum[c][d]);  
         }  
-        printf("\n");  
+   printf("\n");  
     }  
-    return 0;
-    }
+ }
